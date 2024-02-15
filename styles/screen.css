@@ -42,3 +42,12 @@ main{
     margin: 0;
 }
 
+.details ul li{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 35px;
+}
+
+.details ul li.wifi{
+    background: url('wifi-solid.svg')no-repeat center left;
+}
