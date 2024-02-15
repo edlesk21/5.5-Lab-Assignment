@@ -49,5 +49,17 @@ main{
 }
 
 .details ul li.wifi{
-    background: url('wifi-solid.svg')no-repeat center left;
+    background: url('wifi-solid 1.png')no-repeat center left;
+}
+
+.details ul li.cloud{
+    background: url('cloud-solid 1.png')no-repeat center left;
+}
+
+.details ul li.qr{
+    background: url('qrcode-solid 1.png')no-repeat center left;
+}
+
+.details ul li.photo{
+    background: url('photo-solid 1.png')no-repeat center left;
 }
