@@ -42,24 +42,52 @@ main{
     margin: 0;
 }
 
+.details h3{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+
+.details p{
+    font-size: 1.3em;
+    margin-left: 150px;
+    margin-right: 170px;
+}
+
 .details ul li{
     list-style-type: none;
-    margin: 10px 0;
+    margin: 20px 0;
+    margin-left: 150px;
     padding: 0 0 0 35px;
+    font-size: 1em;
 }
 
 .details ul li.wifi{
-    background: url('wifi-solid 1.png')no-repeat center left;
+    background: url('/images/wifi-solid 1.png')no-repeat center left;
+    background-size:contain;
 }
 
 .details ul li.cloud{
-    background: url('cloud-solid 1.png')no-repeat center left;
+    background: url('/images/cloud-solid 1.png')no-repeat center left;
+    background-size:contain;
 }
 
 .details ul li.qr{
-    background: url('qrcode-solid 1.png')no-repeat center left;
+    background: url('/images/qrcode-solid 1.png')no-repeat center left;
+    background-size:contain;
 }
 
 .details ul li.photo{
-    background: url('photo-solid 1.png')no-repeat center left;
+    background: url('/images/photo-solid\ 1.png')no-repeat center left;
+    background-size:contain;
+}
+
+.cta h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 2.5em;
+}
+
+.cta form {
+    display: inline-block;
 }
