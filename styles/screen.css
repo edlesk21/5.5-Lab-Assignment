@@ -93,7 +93,7 @@ main{
 }
 
 .cta form{
-    display: inline-flex
+    display: inline-flex;
     background-color: #f01b1b;
 }
 
