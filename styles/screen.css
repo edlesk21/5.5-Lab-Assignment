@@ -25,7 +25,7 @@ header h1{
 }
 
 main{
-    background: url('/images/polaroid.png') no-repeat center 100px;
+    background: url('/images/polaroid.png') no-repeat center 200px;
     margin: 0 auto;
     width: 1000px;
 }
@@ -44,7 +44,7 @@ main{
 
 .details h3{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 90px;
     font-size: 2.5em;
 }
 
@@ -94,15 +94,16 @@ main{
 
 .cta form{
     display: inline-flex;
-    background-color: #c2b6b6;
+    background-color: #d2d2c6;
     padding: 30px 30px 30px 30px;
     border-radius: 20px;
 }
 
 .text{
-    padding: 20px 150px; 
+    padding: 5px 10px; 
     font-size: 16px;
     text-align: left;
+    width: 400px;
 }
 
 .submit{
